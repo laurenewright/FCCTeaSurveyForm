@@ -1,0 +1,112 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<!-- 
+
+Hello Camper!
+
+For now, the test suite only works in Chrome! Please read the README below in the JS Editor before beginning. Feel free to delete this message once you have read it. Good luck and Happy Coding! 
+
+- The freeCodeCamp Team 
+
+-->
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+  <header></header>
+  <body>
+    <div id="background-color">
+    <h1 id="title">What kind of tea do you like?</h1>
+    <p id="description">Tell us which tea you like</p>
+    <form id="survey-form">
+     <p>
+      <label id="name-label" for="name">Name: </label>
+      <input 
+         id="name" 
+         placeholder="Please enter your name" 
+         required 
+         type="text">
+        </input>
+      </p>
+     <p>
+      <label id="email-label" for="email">Email: </label>
+      <input 
+         id="email" 
+         placeholder="Please enter your email"
+         required
+         type="email">
+      </input>
+     </p>
+     <p>
+      <label id="number-label" for="number">Age: </label>
+      <input 
+         id="number"
+         type="number"
+         required
+         min="15"
+         max="90"
+         placeholder="15">
+       </input>
+     </p>
+     <p>
+       <label id="dropdown-label" for="dropdown"><h3>How do you like your tea? </h3></label>
+       <select id="dropdown" required>
+         <option value="hot">Hot</option>
+         <option value="iced">Iced</option>
+         <option value="both">Both</option>
+       </select>
+     </p>
+     <p>
+       <h3>Choose your favorite kind of tea</h3>
+       <input 
+          type="radio" 
+          name="fav-tea" 
+          checked=""
+          value="Black Tea" />Black Tea
+       <input 
+          type="radio" 
+          name="fav-tea"
+          checked=""
+          value="Green Tea" />Green Tea
+       <input 
+          type="radio" 
+          name="fav-tea"
+          checked=""
+          value="White Tea"/>White Tea
+       <input 
+          type="radio" 
+          name="fav-tea" 
+          checked=""
+          value="Herbal Tea"/>Herbal Tea
+     </p>
+     <p>
+       <h3>What kind of tea have you tried?</h3>
+       <input 
+          type="checkbox"
+          name= "tea-tried"
+          value="Black Tea"/> Black Tea
+        <input 
+          type="checkbox"
+          name= "tea-tried"
+          value="Green Tea"/> Green Tea
+        <input 
+          type="checkbox"
+          name= "tea-tried"
+          value="White Tea"/> White Tea
+        <input 
+          type="checkbox"
+          name= "tea-tried"
+          value="Herbal Tea"/> Herbal Tea
+      </p>
+      <p>
+        <h3>Any Addtional Comments?</h3>
+        <textarea id="comments" type="text"></textarea></br>
+        <button type"submit" id="submit" onclick="submitButton()">Submit</button>
+      </p>
+    <footer>
+       Check out our tea selections <a href="https://codepen.io/laurenewright/full/gOrJZJz" target="_blank">here!</a> 
+    </footer>
+    </form>
+    </div>
+  </body>
+</html>

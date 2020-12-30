@@ -1,0 +1,28 @@
+body {
+  background-image: url(https://i.pinimg.com/originals/63/ef/6f/63ef6f18f8bf77731b9f0e22daad24b1.jpg);
+  background-attachment: fixed;
+}
+
+#background-color {
+    background-color: #C98920;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    justify-content: center;   
+}
+
+#title {
+  display: flex;
+  justify-content: center;
+  
+}
+
+#description {
+  display: flex;
+  justify-content: center;
+}
+
+#survey-form {
+    text-align: center;
+}
